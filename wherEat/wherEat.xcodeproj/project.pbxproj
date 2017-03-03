@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4C23F41CBF3FF6003B94DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C23F31CBF3FF6003B94DE /* AppDelegate.swift */; };
+		AA4C23F61CBF3FF6003B94DE /* mode1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C23F51CBF3FF6003B94DE /* mode1.swift */; };
+		AA4C23F91CBF3FF6003B94DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4C23F71CBF3FF6003B94DE /* Main.storyboard */; };
+		AA4C23FB1CBF3FF6003B94DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4C23FA1CBF3FF6003B94DE /* Assets.xcassets */; };
+		AA4C23FE1CBF3FF6003B94DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4C23FC1CBF3FF6003B94DE /* LaunchScreen.storyboard */; };
+		AA4C24091CBF3FF6003B94DE /* eat_rhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24081CBF3FF6003B94DE /* eat_rhythmTests.swift */; };
+		AA4C24141CBF3FF6003B94DE /* eat_rhythmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24131CBF3FF6003B94DE /* eat_rhythmUITests.swift */; };
+		AA4C242C1CBF42BD003B94DE /* mode2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C242B1CBF42BD003B94DE /* mode2.swift */; };
+		AA4C242E1CBF43F3003B94DE /* mode3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C242D1CBF43F3003B94DE /* mode3.swift */; };
+		AA4C24301CBF4BE0003B94DE /* mode4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C242F1CBF4BE0003B94DE /* mode4.swift */; };
+		AA4C24321CBF4BE9003B94DE /* mode5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24311CBF4BE9003B94DE /* mode5.swift */; };
+		AA4C24341CBFB587003B94DE /* mode1pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24331CBFB587003B94DE /* mode1pause.swift */; };
+		AA4C24361CBFB5DE003B94DE /* mode2pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24351CBFB5DE003B94DE /* mode2pause.swift */; };
+		AA4C24381CBFB9C7003B94DE /* mode3pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24371CBFB9C7003B94DE /* mode3pause.swift */; };
+		AA4C243A1CBFB9D1003B94DE /* mode4pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C24391CBFB9D1003B94DE /* mode4pause.swift */; };
+		AA4C243C1CBFB9DB003B94DE /* mode5pause.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4C243B1CBFB9DB003B94DE /* mode5pause.swift */; };
+		AAA68FA71CCD4903003185A3 /* camp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA68FA21CCD4903003185A3 /* camp.mp3 */; };
+		AAA68FA81CCD4903003185A3 /* home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA68FA31CCD4903003185A3 /* home.mp3 */; };
+		AAA68FA91CCD4903003185A3 /* park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA68FA41CCD4903003185A3 /* park.mp3 */; };
+		AAA68FAA1CCD4903003185A3 /* restaurant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA68FA51CCD4903003185A3 /* restaurant.mp3 */; };
+		AAA68FAB1CCD4903003185A3 /* seawave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AAA68FA61CCD4903003185A3 /* seawave.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA4C24051CBF3FF6003B94DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4C23E81CBF3FF6003B94DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4C23EF1CBF3FF6003B94DE;
+			remoteInfo = "eat-rhythm";
+		};
+		AA4C24101CBF3FF6003B94DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4C23E81CBF3FF6003B94DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA4C23EF1CBF3FF6003B94DE;
+			remoteInfo = "eat-rhythm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA4C23F01CBF3FF6003B94DE /* wherEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wherEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C23F31CBF3FF6003B94DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA4C23F51CBF3FF6003B94DE /* mode1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mode1.swift; sourceTree = "<group>"; };
+		AA4C23F81CBF3FF6003B94DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4C23FA1CBF3FF6003B94DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA4C23FD1CBF3FF6003B94DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4C23FF1CBF3FF6003B94DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C24041CBF3FF6003B94DE /* wherEat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wherEat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C24081CBF3FF6003B94DE /* eat_rhythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eat_rhythmTests.swift; sourceTree = "<group>"; };
+		AA4C240A1CBF3FF6003B94DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C240F1CBF3FF6003B94DE /* wherEat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wherEat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C24131CBF3FF6003B94DE /* eat_rhythmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eat_rhythmUITests.swift; sourceTree = "<group>"; };
+		AA4C24151CBF3FF6003B94DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4C242B1CBF42BD003B94DE /* mode2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode2.swift; sourceTree = "<group>"; };
+		AA4C242D1CBF43F3003B94DE /* mode3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode3.swift; sourceTree = "<group>"; };
+		AA4C242F1CBF4BE0003B94DE /* mode4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode4.swift; sourceTree = "<group>"; };
+		AA4C24311CBF4BE9003B94DE /* mode5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode5.swift; sourceTree = "<group>"; };
+		AA4C24331CBFB587003B94DE /* mode1pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode1pause.swift; sourceTree = "<group>"; };
+		AA4C24351CBFB5DE003B94DE /* mode2pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode2pause.swift; sourceTree = "<group>"; };
+		AA4C24371CBFB9C7003B94DE /* mode3pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode3pause.swift; sourceTree = "<group>"; };
+		AA4C24391CBFB9D1003B94DE /* mode4pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode4pause.swift; sourceTree = "<group>"; };
+		AA4C243B1CBFB9DB003B94DE /* mode5pause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mode5pause.swift; sourceTree = "<group>"; };
+		AAA68FA21CCD4903003185A3 /* camp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camp.mp3; sourceTree = "<group>"; };
+		AAA68FA31CCD4903003185A3 /* home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = home.mp3; sourceTree = "<group>"; };
+		AAA68FA41CCD4903003185A3 /* park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = park.mp3; sourceTree = "<group>"; };
+		AAA68FA51CCD4903003185A3 /* restaurant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = restaurant.mp3; sourceTree = "<group>"; };
+		AAA68FA61CCD4903003185A3 /* seawave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = seawave.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA4C23ED1CBF3FF6003B94DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C24011CBF3FF6003B94DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C240C1CBF3FF6003B94DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4C23E71CBF3FF6003B94DE = {
+			isa = PBXGroup;
+			children = (
+				AA4C23F21CBF3FF6003B94DE /* eat-rhythm */,
+				AA4C24071CBF3FF6003B94DE /* eat-rhythmTests */,
+				AA4C24121CBF3FF6003B94DE /* eat-rhythmUITests */,
+				AA4C23F11CBF3FF6003B94DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA4C23F11CBF3FF6003B94DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C23F01CBF3FF6003B94DE /* wherEat.app */,
+				AA4C24041CBF3FF6003B94DE /* wherEat.xctest */,
+				AA4C240F1CBF3FF6003B94DE /* wherEat.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA4C23F21CBF3FF6003B94DE /* eat-rhythm */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C23F31CBF3FF6003B94DE /* AppDelegate.swift */,
+				AA4C23F51CBF3FF6003B94DE /* mode1.swift */,
+				AA4C24331CBFB587003B94DE /* mode1pause.swift */,
+				AA4C242B1CBF42BD003B94DE /* mode2.swift */,
+				AA4C24351CBFB5DE003B94DE /* mode2pause.swift */,
+				AA4C242D1CBF43F3003B94DE /* mode3.swift */,
+				AA4C24371CBFB9C7003B94DE /* mode3pause.swift */,
+				AA4C242F1CBF4BE0003B94DE /* mode4.swift */,
+				AA4C24391CBFB9D1003B94DE /* mode4pause.swift */,
+				AA4C24311CBF4BE9003B94DE /* mode5.swift */,
+				AA4C243B1CBFB9DB003B94DE /* mode5pause.swift */,
+				AA4C23F71CBF3FF6003B94DE /* Main.storyboard */,
+				AA4C23FA1CBF3FF6003B94DE /* Assets.xcassets */,
+				AA4C23FC1CBF3FF6003B94DE /* LaunchScreen.storyboard */,
+				AA4C23FF1CBF3FF6003B94DE /* Info.plist */,
+				AAA68FA21CCD4903003185A3 /* camp.mp3 */,
+				AAA68FA31CCD4903003185A3 /* home.mp3 */,
+				AAA68FA41CCD4903003185A3 /* park.mp3 */,
+				AAA68FA51CCD4903003185A3 /* restaurant.mp3 */,
+				AAA68FA61CCD4903003185A3 /* seawave.mp3 */,
+			);
+			path = "eat-rhythm";
+			sourceTree = "<group>";
+		};
+		AA4C24071CBF3FF6003B94DE /* eat-rhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C24081CBF3FF6003B94DE /* eat_rhythmTests.swift */,
+				AA4C240A1CBF3FF6003B94DE /* Info.plist */,
+			);
+			path = "eat-rhythmTests";
+			sourceTree = "<group>";
+		};
+		AA4C24121CBF3FF6003B94DE /* eat-rhythmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA4C24131CBF3FF6003B94DE /* eat_rhythmUITests.swift */,
+				AA4C24151CBF3FF6003B94DE /* Info.plist */,
+			);
+			path = "eat-rhythmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA4C23EF1CBF3FF6003B94DE /* wherEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C24181CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEat" */;
+			buildPhases = (
+				AA4C23EC1CBF3FF6003B94DE /* Sources */,
+				AA4C23ED1CBF3FF6003B94DE /* Frameworks */,
+				AA4C23EE1CBF3FF6003B94DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wherEat;
+			productName = "eat-rhythm";
+			productReference = AA4C23F01CBF3FF6003B94DE /* wherEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA4C24031CBF3FF6003B94DE /* wherEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C241B1CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEatTests" */;
+			buildPhases = (
+				AA4C24001CBF3FF6003B94DE /* Sources */,
+				AA4C24011CBF3FF6003B94DE /* Frameworks */,
+				AA4C24021CBF3FF6003B94DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4C24061CBF3FF6003B94DE /* PBXTargetDependency */,
+			);
+			name = wherEatTests;
+			productName = "eat-rhythmTests";
+			productReference = AA4C24041CBF3FF6003B94DE /* wherEat.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA4C240E1CBF3FF6003B94DE /* wherEatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA4C241E1CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEatUITests" */;
+			buildPhases = (
+				AA4C240B1CBF3FF6003B94DE /* Sources */,
+				AA4C240C1CBF3FF6003B94DE /* Frameworks */,
+				AA4C240D1CBF3FF6003B94DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA4C24111CBF3FF6003B94DE /* PBXTargetDependency */,
+			);
+			name = wherEatUITests;
+			productName = "eat-rhythmUITests";
+			productReference = AA4C240F1CBF3FF6003B94DE /* wherEat.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4C23E81CBF3FF6003B94DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yishi Xie";
+				TargetAttributes = {
+					AA4C23EF1CBF3FF6003B94DE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 53SPJ4GB6Q;
+						LastSwiftMigration = 0810;
+					};
+					AA4C24031CBF3FF6003B94DE = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = AA4C23EF1CBF3FF6003B94DE;
+					};
+					AA4C240E1CBF3FF6003B94DE = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = AA4C23EF1CBF3FF6003B94DE;
+					};
+				};
+			};
+			buildConfigurationList = AA4C23EB1CBF3FF6003B94DE /* Build configuration list for PBXProject "wherEat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA4C23E71CBF3FF6003B94DE;
+			productRefGroup = AA4C23F11CBF3FF6003B94DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA4C23EF1CBF3FF6003B94DE /* wherEat */,
+				AA4C24031CBF3FF6003B94DE /* wherEatTests */,
+				AA4C240E1CBF3FF6003B94DE /* wherEatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA4C23EE1CBF3FF6003B94DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C23FE1CBF3FF6003B94DE /* LaunchScreen.storyboard in Resources */,
+				AAA68FA81CCD4903003185A3 /* home.mp3 in Resources */,
+				AAA68FA91CCD4903003185A3 /* park.mp3 in Resources */,
+				AA4C23FB1CBF3FF6003B94DE /* Assets.xcassets in Resources */,
+				AA4C23F91CBF3FF6003B94DE /* Main.storyboard in Resources */,
+				AAA68FAB1CCD4903003185A3 /* seawave.mp3 in Resources */,
+				AAA68FAA1CCD4903003185A3 /* restaurant.mp3 in Resources */,
+				AAA68FA71CCD4903003185A3 /* camp.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C24021CBF3FF6003B94DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C240D1CBF3FF6003B94DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA4C23EC1CBF3FF6003B94DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C243A1CBFB9D1003B94DE /* mode4pause.swift in Sources */,
+				AA4C24381CBFB9C7003B94DE /* mode3pause.swift in Sources */,
+				AA4C243C1CBFB9DB003B94DE /* mode5pause.swift in Sources */,
+				AA4C24361CBFB5DE003B94DE /* mode2pause.swift in Sources */,
+				AA4C24321CBF4BE9003B94DE /* mode5.swift in Sources */,
+				AA4C242C1CBF42BD003B94DE /* mode2.swift in Sources */,
+				AA4C24341CBFB587003B94DE /* mode1pause.swift in Sources */,
+				AA4C24301CBF4BE0003B94DE /* mode4.swift in Sources */,
+				AA4C23F61CBF3FF6003B94DE /* mode1.swift in Sources */,
+				AA4C242E1CBF43F3003B94DE /* mode3.swift in Sources */,
+				AA4C23F41CBF3FF6003B94DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C24001CBF3FF6003B94DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C24091CBF3FF6003B94DE /* eat_rhythmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4C240B1CBF3FF6003B94DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C24141CBF3FF6003B94DE /* eat_rhythmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA4C24061CBF3FF6003B94DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4C23EF1CBF3FF6003B94DE /* wherEat */;
+			targetProxy = AA4C24051CBF3FF6003B94DE /* PBXContainerItemProxy */;
+		};
+		AA4C24111CBF3FF6003B94DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA4C23EF1CBF3FF6003B94DE /* wherEat */;
+			targetProxy = AA4C24101CBF3FF6003B94DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA4C23F71CBF3FF6003B94DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4C23F81CBF3FF6003B94DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4C23FC1CBF3FF6003B94DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4C23FD1CBF3FF6003B94DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA4C24161CBF3FF6003B94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA4C24171CBF3FF6003B94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA4C24191CBF3FF6003B94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "eat-rhythm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishi.eat-rhythm";
+				PRODUCT_NAME = wherEat;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA4C241A1CBF3FF6003B94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "eat-rhythm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishi.eat-rhythm";
+				PRODUCT_NAME = wherEat;
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA4C241C1CBF3FF6003B94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eat-rhythmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.eat-rhythmTests";
+				PRODUCT_NAME = wherEat;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wherEat.app/wherEat";
+			};
+			name = Debug;
+		};
+		AA4C241D1CBF3FF6003B94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eat-rhythmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.eat-rhythmTests";
+				PRODUCT_NAME = wherEat;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wherEat.app/wherEat";
+			};
+			name = Release;
+		};
+		AA4C241F1CBF3FF6003B94DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "eat-rhythmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.eat-rhythmUITests";
+				PRODUCT_NAME = wherEat;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "eat-rhythm";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA4C24201CBF3FF6003B94DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "eat-rhythmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.eat-rhythmUITests";
+				PRODUCT_NAME = wherEat;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "eat-rhythm";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA4C23EB1CBF3FF6003B94DE /* Build configuration list for PBXProject "wherEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C24161CBF3FF6003B94DE /* Debug */,
+				AA4C24171CBF3FF6003B94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C24181CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C24191CBF3FF6003B94DE /* Debug */,
+				AA4C241A1CBF3FF6003B94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C241B1CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C241C1CBF3FF6003B94DE /* Debug */,
+				AA4C241D1CBF3FF6003B94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA4C241E1CBF3FF6003B94DE /* Build configuration list for PBXNativeTarget "wherEatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA4C241F1CBF3FF6003B94DE /* Debug */,
+				AA4C24201CBF3FF6003B94DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4C23E81CBF3FF6003B94DE /* Project object */;
+}
